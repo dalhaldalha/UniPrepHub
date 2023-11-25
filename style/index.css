@@ -1,0 +1,117 @@
+
+#222831
+#393E46
+#00ADB5
+#EEEEEE
+
+
+
+/*-----------------------General-------------------------------*/
+
+h2 {
+  font-family: Arial;
+}
+
+p {
+  font-family: Lexend Deca, Arial;
+  color: #222831;
+}
+
+a {
+  font-family: Lexend Deca, Arial;
+  text-decoration: none;
+}
+
+/*-----------------------Header-------------------------------*/
+header {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  background-color: #EEEEEE;
+  border-radius: 0rem 0rem 2rem 2rem;
+}
+
+/*-----------------------Top-Header-------------------------------*/
+
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.site-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-logo {
+  width: 4rem;
+}
+
+.site-navigation {
+  display: flex;
+  gap: 4rem;
+}
+
+.navigation {
+  color: #222831;
+  border: solid hidden;
+  border-width: 0rem 0rem 0.2rem 0rem;
+  transition: 0.05s;
+  
+}
+
+.navigation:hover {
+  border: solid;
+  border-color: #00ADB5;
+  border-width: 0rem 0rem 0.2rem 0rem;
+}
+
+/*-----------------------Bottom-Header-------------------------------*/
+
+.bottom-header {
+  display: flex;
+}
+
+.bottom-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.header-img {
+  width: 35rem;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.header-text {
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header-p {
+
+}
+
+.getnow-btn {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #00ADB5;
+  color: #EEEEEE;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 1.5rem;
+}
