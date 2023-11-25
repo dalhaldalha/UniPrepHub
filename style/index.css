@@ -7,11 +7,6 @@
 
 
 /*-----------------------General-------------------------------*/
-
-h2 {
-  font-family: Arial;
-}
-
 p {
   font-family: Lexend Deca, Arial;
   color: #222831;
@@ -24,6 +19,11 @@ a {
 
 body {
   padding-bottom: 2000px;
+}
+
+h1,
+h2 {
+  font-family: Big Shoulders Display, Arial;
 }
 
 /*-----------------------Header-------------------------------*/
@@ -143,7 +143,7 @@ div.top-header-transparent.scrolled {
   color: #EEEEEE;
   padding: 1rem;
   width: 10rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 /*-----------------------Main-------------------------------*/
@@ -153,11 +153,43 @@ div.top-header-transparent.scrolled {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: red;
+  margin-top: 6rem;
+  gap: 6rem;
+}
+
+.university-text {
+  font-size: 3.5rem;
 }
 
 .university-list {
   display: flex;
-  background-color: blue;
   justify-content: space-around;
+}
+
+.uni-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 25rem;
+  gap: 2rem;
+  box-shadow: 0 0 1rem rgba(146, 146, 146, 0.7);
+}
+
+.uni-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.uni-logo {
+  width: 7rem;
+}
+
+.getresources-btn {
+  background-color: #00ADB5;
+  color: #EEEEEE;
+  border-radius: 1rem;
+  padding: 1rem;
 }
