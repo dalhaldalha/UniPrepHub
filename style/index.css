@@ -185,6 +185,12 @@ div.top-header-transparent.scrolled {
 
 .uni-logo {
   width: 7rem;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.uni-logo:hover {
+  filter: grayscale(0%);
 }
 
 .getresources-btn {
