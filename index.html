@@ -14,13 +14,29 @@
   </head>
   <body>
     <header class="header">
-      <div class="top-header">
+      <div class="top-header-transparent">
         <div class="site-identity">
           <img class="site-logo" src="img/UniPrepHub.svg" alt="UniPrepHub logo">
           <h2>UniPrepHub</h2>
         </div>
+        <script>
+          window.onscroll = function() {
+            var header = 
+          document.querySelector("div.top-header-transparent");
+            
+            if (document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20) 
+          {
+          
+          header.classList.add("scrolled");
+            } else {
+          
+          header.classList.remove("scrolled");
+            }
+          };
+        </script>
         <div class="site-navigation">
-          <a class="navigation" href="#">Home</a>
+          <a class="navigation" href="index.html">Home</a>
           <a class="navigation" href="#">University</a>
           <a class="navigation" href="#">Materials</a>
           <a class="navigation" href="#">Preps</a>
