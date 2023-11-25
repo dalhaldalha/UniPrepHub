@@ -43,7 +43,8 @@ header {
   left: 0;
   width: 100%;
   height: 85vh;
-  clip-path: polygon(40% 0, 100% 0%, 100% 100%, 75% 100%);
+  border-radius: 0rem 0rem 2rem 0rem;
+  clip-path: polygon(45% 0, 100% 0%, 100% 100%, 85% 100%);
   background-color: rgba(0, 170, 179, 0.622);
   z-index: 1;
 }
@@ -61,7 +62,7 @@ div.top-header-transparent {
   border-radius: 0rem 0rem 2rem 2rem;
   align-items: center;
   transition: background-color 0.6s ease;
-  z-index: 1000;
+  z-index: 2;
   padding: 1rem 3rem;
 }
 
@@ -100,10 +101,9 @@ div.top-header-transparent.scrolled {
 }
 
 /*-----------------------Bottom-Header-------------------------------*/
-
 .bottom-header {
   display: flex;
-  z-index: 2;
+  z-index: 1;
 }
 
 .bottom-left {
@@ -144,4 +144,20 @@ div.top-header-transparent.scrolled {
   padding: 1rem;
   width: 10rem;
   border-radius: 1.5rem;
+}
+
+/*-----------------------Main-------------------------------*/
+
+.universities-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+}
+
+.university-list {
+  display: flex;
+  background-color: blue;
+  justify-content: space-around;
 }
