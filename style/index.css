@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  padding-bottom: 2000px;
+}
+
 /*-----------------------Header-------------------------------*/
 header {
   display: flex;
@@ -29,16 +33,29 @@ header {
   height: 85vh;
   background-color: #EEEEEE;
   border-radius: 0rem 0rem 2rem 2rem;
+  padding: 6rem 0rem 0rem;
 }
 
 /*-----------------------Top-Header-------------------------------*/
 
 
-.top-header {
+div.top-header-transparent {
   display: flex;
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+  background-color: transparent;
   justify-content: space-between;
+  border-radius: 0rem 0rem 2rem 2rem;
   align-items: center;
+  transition: background-color 0.6s ease;
+  z-index: 1000;
   padding: 1rem 3rem;
+}
+
+div.top-header-transparent.scrolled {
+  background-color: #EEEEEE;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.7);
 }
 
 .site-identity {
@@ -58,7 +75,7 @@ header {
 
 .navigation {
   color: #222831;
-  border: solid hidden;
+  border: 5px hidden;
   border-width: 0rem 0rem 0.2rem 0rem;
   transition: 0.05s;
   
@@ -67,7 +84,7 @@ header {
 .navigation:hover {
   border: solid;
   border-color: #00ADB5;
-  border-width: 0rem 0rem 0.2rem 0rem;
+  border-bottom: 2px;
 }
 
 /*-----------------------Bottom-Header-------------------------------*/
