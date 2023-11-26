@@ -250,3 +250,16 @@ div.top-header-transparent.scrolled {
   padding: 1rem;
   transition: all 0.3s;
 }
+
+@media (max-width:750px) {
+  .university-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .uni-card {
+    width: 20rem;
+  }
+}
