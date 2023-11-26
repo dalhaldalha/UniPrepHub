@@ -104,6 +104,10 @@ div.top-header-transparent.scrolled {
   display: none;
 }
 
+.hidden-menu {
+  display: none;
+}
+
 @media (max-width:750px) {
   .navigation {
     display: none;
@@ -116,6 +120,10 @@ div.top-header-transparent.scrolled {
   .header-overlay {
     border-radius: 0rem;
     clip-path: polygon(45% 0, 100% 0%, 100% 100%);
+  }
+
+  .hidden-menu {
+    display: inline-block;
   }
 }
 
