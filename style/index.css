@@ -34,7 +34,6 @@ header {
   background-color: #EEEEEE;
   border-radius: 0rem 0rem 2rem 2rem;
   padding: 6rem 0rem 0rem;
-  
 }
 
 .header-overlay {
@@ -88,16 +87,33 @@ div.top-header-transparent.scrolled {
 
 .navigation {
   color: #222831;
-  border: 5px hidden;
+  border: solid transparent;
   border-width: 0rem 0rem 0.2rem 0rem;
-  transition: 0.05s;
+  transition: all 0.05s;
   
 }
 
 .navigation:hover {
   border: solid;
-  border-color: #00ADB5;
-  border-bottom: 2px;
+  border-width: 0rem 0rem 0.2rem 0rem;
+}
+
+.navigation:active {
+  transform: translateY(-0.3rem);
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width:750px) {
+  .navigation {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
 }
 
 /*-----------------------Bottom-Header-------------------------------*/
@@ -144,6 +160,16 @@ div.top-header-transparent.scrolled {
   padding: 1rem;
   width: 10rem;
   border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.all-btn:hover {
+  background-color: #222831;
+  color: #00ADB5;
+}
+
+.all-btn:active {
+  transform: translateY(-0.2rem);
 }
 
 /*-----------------------Main-------------------------------*/
@@ -198,4 +224,5 @@ div.top-header-transparent.scrolled {
   color: #EEEEEE;
   border-radius: 1rem;
   padding: 1rem;
+  transition: all 0.3s;
 }
