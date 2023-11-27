@@ -271,3 +271,18 @@ div.top-header-transparent.scrolled {
     width: 20rem;
   }
 }
+
+/*-----------------------Resource section-------------------------------*/
+
+.resource-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.resource {
+  background-color: #00ADB5;
+  border: solid;
+  width: 30rem;
+}
