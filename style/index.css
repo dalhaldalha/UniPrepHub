@@ -22,7 +22,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Big Shoulders Display, Arial;
 }
 
@@ -291,7 +292,7 @@ div.top-header-transparent.scrolled {
 }
 
 .latest-text {
-  margin: 2rem 0rem;
+  margin: 2rem 2rem;
 }
 
 .article-bio {
