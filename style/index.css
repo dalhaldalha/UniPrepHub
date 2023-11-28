@@ -282,7 +282,32 @@ div.top-header-transparent.scrolled {
 }
 
 .resource {
+  position: relative;
   background-color: #00ADB5;
-  border: solid;
+  border-radius: 2rem;
   width: 30rem;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.latest-text {
+  margin: 2rem 0rem;
+}
+
+.article-bio {
+  display: flex;
+  position: absolute;
+  bottom: -1rem;
+  right: 0rem;
+  left: 0rem;
+  opacity: 0.9;
+  filter: blur(0.3rem);
+  background-image: linear-gradient(to right, #00ADB5, #86ecf2);
+  height: 35%;
+}
+
+.article-title {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
 }
