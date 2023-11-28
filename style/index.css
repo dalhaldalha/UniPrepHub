@@ -286,9 +286,10 @@ div.top-header-transparent.scrolled {
   position: relative;
   background-color: #00ADB5;
   border-radius: 2rem;
-  width: 30rem;
+  width: 25rem;
   height: 15rem;
   overflow: hidden;
+  margin: 0rem 1rem;
 }
 
 .latest-text {
