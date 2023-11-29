@@ -213,7 +213,8 @@ div.top-header-transparent.scrolled {
   justify-content: center;
   text-align: center;
   margin-top: 6rem;
-  gap: 6rem;
+  justify-content: space-around;
+  gap: 2rem;
 }
 
 .university-text {
@@ -223,6 +224,8 @@ div.top-header-transparent.scrolled {
 .university-list {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .uni-card {
@@ -231,9 +234,10 @@ div.top-header-transparent.scrolled {
   align-items: center;
   justify-content: center;
   border-radius: 1rem;
+  margin: 0rem 1rem;
   width: 25rem;
   height: 25rem;
-  gap: 2rem;
+  gap: 4rem;
   box-shadow: 0 0 1rem rgba(146, 146, 146, 0.7);
 }
 
@@ -260,18 +264,6 @@ div.top-header-transparent.scrolled {
   transition: all 0.3s;
 }
 
-@media (max-width:750px) {
-  .university-list {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-
-  .uni-card {
-    width: 20rem;
-  }
-}
 
 /*-----------------------Resource section-------------------------------*/
 
